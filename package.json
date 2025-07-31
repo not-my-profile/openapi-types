@@ -85,7 +85,8 @@
   ],
   "scripts": {
     "prebuild": "ts-unused-exports tsconfig.json --excludePathsFromReport='src/index'",
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "@omer-x/eslint-config": "^2.1.3",
