@@ -22,6 +22,7 @@ type Schema = {
   nullable?: boolean,
   oneOf?: SchemaObject[],
   anyOf?: SchemaObject[],
+  enum?: unknown[],
 };
 
 type TypeSpecifics = {
